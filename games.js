@@ -12,43 +12,92 @@ let availableQuestions = [];
 
 let questions = [
   {
-    question: "What is 2 + 2?",
-    choice1: "2",
-    choice2: "4",
-    choice3: "21",
-    choice4: "17",
+    question: "Which country operationalized world’s largest radio telescope?",
+    choice1: "USA",
+    choice2: "China",
+    choice3: "Russia",
+    choice4: "India",
     answer: 2
   },
   {
-    question: "The tallest building in the world is located in which city?",
-    choice1: "Dubai",
-    choice2: "New York",
-    choice3: "Shanghai",
-    choice4: "None of the above",
-    answer: 1
-  },
-  {
-    question:
-      "What percent of American adults believe that chocolate milk comes from brown cows?",
-    choice1: "20%",
-    choice2: "18%",
-    choice3: "7%",
-    choice4: "33%",
+    question: "The World Largest desert is?",
+    choice1: "Thar",
+    choice2: "Kalahari",
+    choice3: "Sahara",
+    choice4: "Sonoran",
     answer: 3
   },
   {
-    question:
-      "Approximately what percent of U.S. power outages are caused by squirrels?",
-    choice1: "10-20%",
-    choice2: "5-10%",
-    choice3: "15-20%",
-    choice4: "30%-40%",
+    question: "What’s the shortcut for the “copy” function on most computers?",
+    choice1: "ctrl c",
+    choice2: "ctrl p",
+    choice3: "ctrl s",
+    choice4: "ctrl v",
     answer: 1
+  },
+  {
+    question:
+      "What Los Angeles community is noted for celebrities and mansions?",
+    choice1: "Nob Hill",
+    choice2: "Beverly Hills",
+    choice3: "Chestnut Hill",
+    choice4: "Bunker Hill",
+    answer: 2
+  },
+  {
+    question: "Which country has the largest capacity reservoir in the world?",
+    choice1: "Egypt",
+    choice2: "United States",
+    choice3: "Uganda",
+    choice4: "Brazil",
+    answer: 3
+  },
+  {
+    question: "Which state is known as the “Beehive State”?",
+    choice1: "North Dakota",
+    choice2: "Oregon",
+    choice3: "Georgia",
+    choice4: "Utah",
+    answer: 4
+  },
+  {
+    question:
+      "A collection of hundreds of stars around a common centre is called a:",
+    choice1: "Solar system",
+    choice2: "Galaxy",
+    choice3: "Light year",
+    choice4: "Black hole",
+    answer: 2
+  },
+  {
+    question: "One of these words does not belong. Find the odd word out.",
+    choice1: "Baseball",
+    choice2: "Volleyball",
+    choice3: "Soccer",
+    choice4: "Swimming",
+    answer: 4
+  },
+  {
+    question:
+      "Which country follows the United States and China in total number of Internet users?",
+    choice1: "Germany",
+    choice2: "United Kingdom",
+    choice3: "France",
+    choice4: "Japan",
+    answer: 4
+  },
+  {
+    question: "Which country is not considered a kingdom?",
+    choice1: "Belgium",
+    choice2: "Denmark",
+    choice3: "Monaco",
+    choice4: "Sweden",
+    answer: 3
   }
 ];
 
 const SCORE_POINTS = 100;
-const MAX_QUESTIONS = 4;
+const MAX_QUESTIONS = 10;
 
 startGame = () => {
   questionCounter = 0;

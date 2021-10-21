@@ -2,21 +2,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 
 :root {
-    background-color: rgb(29, 26, 26);
+    background-color: hsl(0, 0%, 3.1%);
 }
 
 * {
-    box-sizing: border-box;
+
     margin: 0;
     padding: 0;
     font-size: 62.5%;
     font-family: 'Nova Square',
         cursive;
+    box-sizing: border-box;
 }
 
 h1 {
     font-size: 5.4rem;
-    color: #fff;
+    color: hsl(0, 0%, 100%);
     margin-bottom: 5rem;
 
 }
@@ -66,14 +67,14 @@ h2 {
     text-align: center;
     margin-bottom: 1rem;
     text-decoration: none;
-    color: rgb(28, 26, 26);
-    background: linear-gradient(90deg, rgb(18, 92, 255) 0%, rgb(0, 102, 255) 100%);
+    color: hsl(0, 0%, 3.1%);
+    background: linear-gradient(90deg, hsl(192, 100%, 50%) 0%, hsl(195.1, 100%, 50%) 100%);
     border-radius: 4px;
 }
 
 .btn:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 144, 244, 0.6);
+    box-shadow: 0 0.4rem 1.4rem 0 hsl(195.2, 97.5%, 52.4%, 0.6);
     transition: transform 150ms;
     transform: scale(1.03);
 }
@@ -85,17 +86,30 @@ h2 {
 }
 
 #highscore-btn {
-    background: linear-gradient(90deg, rgb(255, 247, 9) 0%, rgb(240, 221, 6) 100%);
+    background: linear-gradient(90deg, hsl(57.9, 100%, 50%) 0%, hsl(56.5, 100%, 50%) 100%);
 }
 
 
 #highscore-btn:hover {
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 0, 0.5);
+    box-shadow: 0 0.4rem 1.4rem 0 hsl(58, 100%, 46.7%, 0.5);
+}
+
+.fa-play-circle {
+    font-size: 2.5rem;
+    margin-left: 1rem;
 }
 
 .fa-crown {
     font-size: 2.5rem;
     margin-left: 1rem;
+}
+
+small {
+    color: hsl(0, 0%, 100%);
+    font-size: 32px;
+    position: absolute;
+    bottom: 0;
+    left: 845px;
 }
 
 /* End Page CSS */
@@ -113,11 +127,11 @@ input {
     padding: 1.5rem;
     font-size: 1.8rem;
     border: none;
-    box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    box-shadow: 0 0.1rem 1.4rem 0 hsl(180, 100%, 50%, 0.5);
 }
 
 input::placeholder {
-    color: #aaa;
+    color: hsl(221.1, 8.3%, 55.1%);
 }
 
 #username {
@@ -128,7 +142,7 @@ input::placeholder {
 
 #end-text {
     font-size: 2.4rem;
-    color: #fff;
+    color: hsl(0, 0%, 100%);
     text-align: center;
 }
 
@@ -139,5 +153,5 @@ input::placeholder {
 .fa-home {
     margin-left: 1rem;
     font-size: 2rem;
-    color: rgb(28, 26, 26);
+    color: hsl(0, 0%, 3.1%);
 }
