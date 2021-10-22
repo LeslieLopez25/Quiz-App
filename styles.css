@@ -16,8 +16,8 @@
 }
 
 h1 {
-    font-size: 5.4rem;
     color: hsl(0, 0%, 100%);
+    font-size: 5.4rem;
     margin-bottom: 5rem;
 
 }
@@ -28,14 +28,14 @@ h2 {
 }
 
 .container {
-    width: 100vw;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 80rem;
     margin: 0 auto;
     padding: 2rem;
+    max-width: 80rem;
+    width: 100vw;
+    height: 100vh;
 }
 
 .flex-column {
@@ -61,28 +61,28 @@ h2 {
 }
 
 .btn {
+    background: linear-gradient(90deg, hsl(192, 100%, 50%) 0%, hsl(195.1, 100%, 50%) 100%);
+    color: hsl(0, 0%, 3.1%);
     font-size: 2.4rem;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 1rem;
     padding: 2rem 0;
     width: 30rem;
-    text-align: center;
-    margin-bottom: 1rem;
-    text-decoration: none;
-    color: hsl(0, 0%, 3.1%);
-    background: linear-gradient(90deg, hsl(192, 100%, 50%) 0%, hsl(195.1, 100%, 50%) 100%);
-    border-radius: 4px;
+    border-radius: 0.25rem;
 }
 
 .btn:hover {
-    cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 hsl(195.2, 97.5%, 52.4%, 0.6);
-    transition: transform 150ms;
+    box-shadow: 0 6.5px 22.5px 0 hsl(195.2, 97.5%, 52.4%, 0.6);
     transform: scale(1.03);
+    transition: transform 150ms;
+    cursor: pointer;
 }
 
 .btn[disabled]:hover {
-    cursor: not-allowed;
     box-shadow: none;
     transform: none;
+    cursor: not-allowed;
 }
 
 #highscore-btn {
@@ -91,7 +91,7 @@ h2 {
 
 
 #highscore-btn:hover {
-    box-shadow: 0 0.4rem 1.4rem 0 hsl(58, 100%, 46.7%, 0.5);
+    box-shadow: 0 6.5px 22.5px 0 hsl(58, 100%, 46.7%, 0.5);
 }
 
 .fa-play-circle {
@@ -106,28 +106,35 @@ h2 {
 
 small {
     color: hsl(0, 0%, 100%);
-    font-size: 32px;
+    font-size: 3rem;
     position: absolute;
     bottom: 0;
-    left: 845px;
+    left: 85rem;
+}
+
+@media screen and (max-width: 48em) {
+    small {
+        position: absolute;
+        left: 20rem;
+    }
 }
 
 /* End Page CSS */
 .end-form-container {
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 30rem;
+    width: 100%;
 }
 
 input {
-    margin-bottom: 1rem;
-    width: 20rem;
-    padding: 1.5rem;
     font-size: 1.8rem;
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+    width: 20rem;
     border: none;
-    box-shadow: 0 0.1rem 1.4rem 0 hsl(180, 100%, 50%, 0.5);
+    box-shadow: 0 2px 22.5px 0 hsl(180, 100%, 50%, 0.5);
 }
 
 input::placeholder {
@@ -141,8 +148,8 @@ input::placeholder {
 }
 
 #end-text {
-    font-size: 2.4rem;
     color: hsl(0, 0%, 100%);
+    font-size: 2.4rem;
     text-align: center;
 }
 
@@ -151,7 +158,7 @@ input::placeholder {
 }
 
 .fa-home {
-    margin-left: 1rem;
-    font-size: 2rem;
     color: hsl(0, 0%, 3.1%);
+    font-size: 2rem;
+    margin-left: 1rem;
 }

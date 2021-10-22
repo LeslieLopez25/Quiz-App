@@ -4,25 +4,25 @@ body {
 
 .choice-container {
     display: flex;
-    margin-bottom: 0.8rem;
-    width: 100%;
-    border-radius: 4px;
     background: hsl(240, 100%, 40.2%);
     font-size: 3rem;
+    margin-bottom: 0.8rem;
     min-width: 80rem;
+    width: 100%;
     min-height: 1rem;
+    border-radius: 0.25rem;
 }
 
 .choice-container:hover {
-    cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 hsl(180, 100%, 50%, 0.5);
+    box-shadow: 0 6.5px 22.5px 0 hsl(180, 100%, 50%, 0.5);
     transform: scale(1.02);
     transition: transform 100ms;
+    cursor: pointer;
 }
 
 .choice-prefix {
-    padding: 2rem 2.5rem;
     color: hsl(0, 0%, 100%);
+    padding: 2rem 2.5rem;
 }
 
 .choice-text {
@@ -46,9 +46,8 @@ body {
 }
 
 .hud-prefix {
-    text-align: center;
     font-size: 2rem;
-    /* padding-bottom: 5rem; */
+    text-align: center;
 }
 
 .hud-main-text {
@@ -60,21 +59,21 @@ body {
 }
 
 #progressBar {
+    margin-top: 2rem;
     width: 20rem;
     height: 3rem;
     border: 0.2rem solid hsl(120, 60.8%, 50%);
-    margin-top: 2rem;
-    border-radius: 50px;
+    border-radius: 3.12rem;
     overflow: hidden;
 }
 
 #progressBarFull {
-    height: 100%;
     background: hsl(120, 60.8%, 50%);
-    width: 0%
+    width: 0%;
+    height: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48em) {
     .choice-container {
         min-width: 40rem;
     }
