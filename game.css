@@ -45,7 +45,7 @@ body {
     justify-content: space-between;
 }
 
-.hud-item {
+#score {
     position: absolute;
     top: 20px;
 }
