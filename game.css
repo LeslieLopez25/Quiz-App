@@ -45,6 +45,11 @@ body {
     justify-content: space-between;
 }
 
+.hud-item {
+    position: absolute;
+    top: 20px;
+}
+
 .hud-prefix {
     font-size: 2rem;
     text-align: center;
