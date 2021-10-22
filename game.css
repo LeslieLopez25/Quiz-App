@@ -5,7 +5,7 @@ body {
 .choice-container {
     display: flex;
     background: hsl(240, 100%, 40.2%);
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 0.8rem;
     min-width: 80rem;
     width: 100%;
