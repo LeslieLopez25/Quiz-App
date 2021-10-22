@@ -45,9 +45,14 @@ body {
     justify-content: space-between;
 }
 
+#scoreboard {
+    position: absolute;
+    top: 50px;
+}
+
 #score {
     position: absolute;
-    top: 20px;
+    top: 70px;
 }
 
 .hud-prefix {
