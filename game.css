@@ -47,12 +47,12 @@ body {
 
 #scoreboard {
     position: absolute;
-    top: 4rem;
+    top: 5rem;
 }
 
 #score {
     position: absolute;
-    top: 3rem;
+    top: 7rem;
 }
 
 .hud-prefix {
