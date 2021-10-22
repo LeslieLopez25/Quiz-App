@@ -6,12 +6,9 @@
 
 ### Link
 
-- Live Site: [Quiz]()
+- Live Site: [Quiz](https://quiz-game-project.netlify.app/)
 
 ### Screenshots
 
-<img src="/screenshot/home.png" width="400">
-<img src="/screenshot/question.png" width="400">
-<img src="/screenshot/end.png" width="400">
-<img src="/screenshot/highscore.png" width="400">
-<img src="/screenshot/mobile.png" width="400">
+<img src="/screenshot/home.png" width="400"><img src="/screenshot/question.png" width="400">
+<img src="/screenshot/end.png" width="400"><img src="/screenshot/highscore.png" width="400">
