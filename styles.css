@@ -109,7 +109,7 @@ small {
     font-size: 3rem;
     position: absolute;
     bottom: 0;
-    left: 75rem;
+    left: 50rem;
 }
 
 @media screen and (max-width: 48em) {
